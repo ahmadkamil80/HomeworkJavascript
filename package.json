@@ -1,0 +1,13 @@
+{
+  "name": "homeworkjavascript",
+  "version": "1.0.0",
+  "main": "Convert.js",
+  "author": "kams",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^27.0.6"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
