@@ -15,7 +15,7 @@ $(document).ready(function () {
 
     // Handle paste
     if (theEvent.type === "paste") {
-      key = event.clipboardData.getData("text/plain");
+      key = theEvent.clipboardData.getData("text/plain");
     } else {
       // Handle key press
       var key = theEvent.keyCode || theEvent.which;
